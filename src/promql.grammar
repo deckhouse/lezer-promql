@@ -53,6 +53,10 @@ AggregateOp {
   Group |
   Max |
   Min |
+  OKCumSum |
+  OKTop |
+  OPCumSum |
+  OPTop |
   Quantile |
   Stddev |
   Stdvar |
@@ -335,6 +339,10 @@ NumberLiteral  {
   Group,
   Max,
   Min,
+  OKCumSum,
+  OKTop,
+  OPCumSum,
+  OPTop,
   Quantile,
   Stddev,
   Stdvar,
