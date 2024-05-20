@@ -44,6 +44,12 @@ import {
     Topk,
     Unless,
     Without,
+    OKDefined,
+    OKReplaceNone,
+    OKZeroIfNone,
+    OPDefined,
+    OPReplaceNone,
+    OPZeroIfNone,
 } from './parser.terms.js';
 
 const keywordTokens = {
@@ -71,9 +77,15 @@ const contextualKeywordTokens = {
     max: Max,
     min: Min,
     ok_cum_sum: OKCumSum,
+    ok_defined: OKDefined,
+    ok_replace_nan: OKReplaceNone,
     ok_top: OKTop,
+    ok_zero_if_none: OKZeroIfNone,
     op_cum_sum: OPCumSum,
+    op_defined: OPDefined,
+    op_replace_nan: OPReplaceNone,
     op_top: OPTop,
+    op_zero_if_none: OPZeroIfNone,
     quantile: Quantile,
     stddev: Stddev,
     stdvar: Stdvar,

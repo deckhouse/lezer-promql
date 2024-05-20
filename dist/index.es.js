@@ -33,7 +33,13 @@ const inf$1 = 165,
   Or$1 = 27,
   Unless$1 = 28,
   Start$1 = 29,
-  End$1 = 30;
+  End$1 = 30,
+  OPDefined$1 = 128,
+  OKDefined$1 = 129,
+  OPReplaceNone$1 = 130,
+  OKReplaceNone$1 = 131,
+  OPZeroIfNone$1 = 132,
+  OKZeroIfNone$1 = 133;
 
 // Copyright 2021 The Prometheus Authors
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -74,9 +80,15 @@ const contextualKeywordTokens = {
     max: Max$1,
     min: Min$1,
     ok_cum_sum: OKCumSum$1,
+    ok_defined: OKDefined$1,
+    ok_replace_nan: OKReplaceNone$1,
     ok_top: OKTop$1,
+    ok_zero_if_none: OKZeroIfNone$1,
     op_cum_sum: OPCumSum$1,
+    op_defined: OPDefined$1,
+    op_replace_nan: OPReplaceNone$1,
     op_top: OPTop$1,
+    op_zero_if_none: OPZeroIfNone$1,
     quantile: Quantile$1,
     stddev: Stddev$1,
     stdvar: Stdvar$1,
