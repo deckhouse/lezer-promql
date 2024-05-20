@@ -340,9 +340,15 @@ NumberLiteral  {
   Max,
   Min,
   OKCumSum,
+  OKDefined,
+  OKReplaceNone,
   OKTop,
+  OKZeroIfNone,
   OPCumSum,
+  OPDefined,
+  OPReplaceNone,
   OPTop,
+  OPZeroIfNone,
   Quantile,
   Stddev,
   Stdvar,
@@ -429,12 +435,6 @@ NumberLiteral  {
   Sqrt { condFn<"sqrt"> }
   StddevOverTime { condFn<"stddev_over_time"> }
   StdvarOverTime { condFn<"stdvar_over_time"> }
-  OPDefined { condFn<"op_defined"> }
-  OKDefined { condFn<"ok_defined"> }
-  OPReplaceNone { condFn<"op_replace_none"> }
-  OKReplaceNone { condFn<"ok_replace_none"> }
-  OPZeroIfNone { condFn<"op_zero_if_none"> }
-  OKZeroIfNone{ condFn<"ok_zero_if_none"> }
   SumOverTime { condFn<"sum_over_time"> }
   Tan { condFn<"tan"> }
   Tanh { condFn<"tanh">}
