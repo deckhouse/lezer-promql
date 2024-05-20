@@ -159,6 +159,12 @@ FunctionIdentifier {
   MinOverTime |
   Minute |
   Month |
+  OKDefined |
+  OKReplaceNone |
+  OKZeroIfNone |
+  OPDefined |
+  OPReplaceNone |
+  OPZeroIfNone |
   Pi |
   PredictLinear |
   PresentOverTime |
@@ -178,12 +184,6 @@ FunctionIdentifier {
   Sqrt |
   StddevOverTime |
   StdvarOverTime |
-  OPDefined |
-  OKDefined |
-  OPReplaceNone |
-  OKReplaceNone |
-  OPZeroIfNone |
-  OKZeroIfNone |
   SumOverTime |
   Tan |
   Tanh |
